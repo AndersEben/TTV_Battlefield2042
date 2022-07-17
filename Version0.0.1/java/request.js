@@ -22,10 +22,4 @@ function StartUp(data)
 
 setInterval(function() { httpGetAsync("https://twitch.anderseben.de/battlefield2042/dataset/dataset.php"); }, 180000);
 
-//var response = httpGetAsync("https://api.tracker.gg/api/v2/bf2042/standard/profile/psn/justinontop02?");
-
 httpGetAsync("https://twitch.anderseben.de/battlefield2042/dataset/dataset.php");
-
-//console.log(response);
-//var data = JSON.parse(response);
-//console.log(data);
