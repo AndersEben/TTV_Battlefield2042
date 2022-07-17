@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/design.css" />
+
+<script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">  
+    <div class="holder">
+        <div class="playerholder">
+                <div class="playerimage">
+                    <img src="https://twitch.anderseben.de/battlefield2042/Server/image.jpg">
+                </div>
+                <div class="player">
+                    <div><a id="username"></a></div>
+                    <div><a id="level"></a></div>
+                    <div><a id="xp"></a></div>
+                </div>
+        </div>
+
+        <div class="info">
+            <div class="info_item">
+                <div class="info_name">K/D</div>
+                <div class="info_value" id="kd"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Kills</div>
+                <div class="info_value" id="kills"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Deaths</div>
+                <div class="info_value" id="deaths"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Assists</div>
+                <div class="info_value" id="assists"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Human Kills</div>
+                <div class="info_value" id="humanKills"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">AI Kills</div>
+                <div class="info_value" id="aiKills"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Objective Time</div>
+                <div class="info_value" id="objectiveTime"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Headshot Kills</div>
+                <div class="info_value" id="headkills"></div>
+            </div>
+            <div class="info_item">
+                <div class="info_name">Verteilter Schaden</div>
+                <div class="info_value" id="damageDealt"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="java/twitch.js"></script>
+<script type="text/javascript" src="java/dataplacer.js"></script>
+<script type="text/javascript" src="java/request.js"></script>
+
+</html> 
